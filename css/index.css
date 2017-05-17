@@ -1,0 +1,53 @@
+body,p,div,ul,li,ol,table,dl,dt,dd,tr,th,td,img{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+
+div#showDetail{
+	display: none;
+}
+div#top ul#nav li span.outspan{
+	margin-left: 8px;
+	margin-top: 0;
+	top: 4px;
+}
+div#top{
+	width:100%;
+	height:48px;
+	margin:0 auto;
+	background: #E2E2E2;
+}
+div#top ul#nav a{
+	display: block;
+	width:48px;
+	height: 48px;
+}
+
+table#table{
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	background-color: #abcdef;
+	text-align: center;
+}
+table#table tr,table#table td{
+	padding: 5px;
+}
+table#table tr td img{
+	width: 32px;
+	height: 32px;
+}
+table#table tr td a img{
+	width: 28px;
+	height: 28px;
+}
+table#table tr#createFile,table#table tr#createFolder,table#table tr#uploadFile{
+	display: none;
+}
